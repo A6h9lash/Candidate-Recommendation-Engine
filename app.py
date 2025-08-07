@@ -17,6 +17,10 @@ load_dotenv()
 # Enable debug mode for troubleshooting
 DEBUG_MODE = os.getenv('DEBUG_MODE', 'false').lower() == 'true'
 
+# Runtime configuration for production deployment
+if os.getenv('STREAMLIT_SERVER_RUN_ON_SAVE', 'false').lower() == 'false':
+    st.set_option('server.fileWatcherType', 'none')
+
 # Configure page
 st.set_page_config(
     page_title="Candidate Recommendation Engine",
