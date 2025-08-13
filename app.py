@@ -250,7 +250,7 @@ def main():
     
     # Title at the very top
     st.title("Candidate Recommendation Engine")
-    st.markdown("**Developed by Abhilash RS** | [LinkedIn](https://www.linkedin.com/in/abhilash-rs/) | [Github](https://github.com/A6h9lash)")
+    # st.markdown("**Developed by Abhilash RS** | [LinkedIn](https://www.linkedin.com/in/abhilash-rs/) | [Github](https://github.com/A6h9lash)")
     
     # Horizontal info sections below the title
     col_info1, col_info2, col_info3, col_stats = st.columns([3, 3, 3, 2])
