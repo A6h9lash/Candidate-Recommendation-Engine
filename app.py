@@ -250,6 +250,7 @@ def main():
     
     # Title at the very top
     st.title("Candidate Recommendation Engine")
+    st.markdown("**Developed by Yuktha Bhargavi** | [LinkedIn](https://www.linkedin.com/in/yuktha-bhargavi-b8910a1b4/) | [Github](https://github.com/Yuktha2301)")
     # st.markdown("**Developed by Abhilash RS** | [LinkedIn](https://www.linkedin.com/in/abhilash-rs/) | [Github](https://github.com/A6h9lash)")
     
     # Horizontal info sections below the title
